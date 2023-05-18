@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-image: url("img/twp-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+}
+#header-left{
+    width: 142px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#header-right{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 0;
+}
+.header-item{
+    padding-right: 35px;
+}
+.header-icon{
+    padding-right: 20px;
+}
+
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 20px;
+    height: 32px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
+    cursor: pointer;
+  }
+
+.redondo:hover{
+    background-color: black;
+    color: white;
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+
+#sumate{
+    border-color: #6b53f0;
+    border-width: 2px;
+    color: #6b53f0;
+}
+
+#sumate:hover{
+    background-color: #6b53f0;
+    color: white;
+}
+
+#sumateheader:hover{
+    background-color: black;
+    color: white;
+}
+
+#contacto:hover{
+    background-color: black;
+    color: white;
+}
+
+#introduction-text{
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+}
+#introduction-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #fff;
+}
+#impacto{
+    display: flex;
+    background-color: #201b24;
+    color: white;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+}
+#contadores{
+    display: flex;
+}
+#impacto-contenedor{
+    width: 40%;
+    margin-right: 20px;
+}
+h3{
+    font-size: 50px;
+    margin-bottom: 0;
+    text-align: center;
+}
+h2,h4{
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+.contador{
+    margin-right: 20px;
+    padding: 10px;
+}
+.contador>p{
+    text-align: center;
+}
+#programas{
+    margin-top: 600px;
+    background-color: #fff;
+    padding: 30px 30px
+}
+.card{
+    display: flex;
+    margin-bottom: 20px;
+}
+.card-image>img{
+    width: 576px;
+    height: 384px;
+    border-radius: 0 20px 20px 20px;
+}
+.card-body{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.card-action{
+    margin-top: 20px;
+}
+.card-text{
+    font-size: 14px;
+}
+#capacitaciones{
+    background-color: #fff;
+    padding: 40px 30px;
+}
+#equipo{
+    background-color: #f4f4f5;
+    padding: 40px 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  .member-card {
+    width: 100%;
+    text-align: center;
+  }
+ 
+  .membercard-image{
+    margin: 0;
+  }
+  .member-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px 25px 0 0;
+  }
+
+  .member-card h4 {
+    margin: 0;
+  }
+
+  .member-card p {
+    margin: 0;
+    margin-bottom: 10px;
+    color: #8c939c;
+  }
+
+  .membercard-body{
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+  .membercard-action i{
+    font-size: 12px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  .membercard-action i:hover{
+    background-color: #6b53f0;
+    color: #fff;
+    border-color: #6b53f0;
+  }
+  #alianzas{
+    background-color: #fff;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+  .carrusel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    list-style-type: none;
+  }
+
+  .carrusel img{
+    max-width: 240px;
+    max-height: 100px;
+    filter: grayscale(100%);
+  }
+
+  .carrusel img:hover{
+    filter: grayscale(0);
+  }
+
+  footer{
+    background-color: #201b24;
+    padding: 40px 30px 20px;
+    color: white;
+  }
+
+  .footer-text{
+    width: 25%;
+    font-size: 12px;
+  }
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container a{
+    display: block;
+    color: white;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.footer-container i{
+    margin-right: 10px;
+}
+
